@@ -45,7 +45,7 @@ public class JavaArrayDeque {
 		
 		System.out.println("----------------------------------");
 		
-		dq1.pollLast(); //this work like que now FIFO
+		dq1.pollLast(); //this work like queue now FIFO
 		dq1.forEach(x->System.out.println(x));
 		System.out.println("----------------------------------");
 		

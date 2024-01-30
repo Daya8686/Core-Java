@@ -11,7 +11,7 @@ public class JodaDateTimeClass {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
-		//There we do not use new key word ad we have used in Date class
+		//There we do not use new key word as we have used in Date class
 		//This also started from 01-01-1970 with Seconds + nano seconds
 		//For Date we use LocalDate and for time we use LocalTime
 		//Joda DateTime -> LocalDate, LocalTime, LocalDateTime we dont have ZoneID in JodaDate for that we need to use ZonedDateTime

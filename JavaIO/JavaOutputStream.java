@@ -10,7 +10,7 @@ public class JavaOutputStream {
 		// TODO Auto-generated method stub
 		
 		try {
-			FileOutputStream fos=new FileOutputStream("C:/Java/text.txt");
+			FileOutputStream fos=new FileOutputStream("C:/Java/text01.txt");
 			String str="This is a java program";
 			try {
 				fos.write(str.getBytes()); //1st method

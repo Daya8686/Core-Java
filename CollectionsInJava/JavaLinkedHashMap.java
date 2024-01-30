@@ -21,7 +21,7 @@ public class JavaLinkedHashMap {
 		lhm.put(34, "iug");
 		System.out.println(lhm.get(67)); //this will be the least recently accessed element
 		System.out.println("---------------");
-		lhm.forEach((x,y)->System.out.println(x+" "+y));
+		lhm.forEach((x,y)->System.out.println(x+" | "+y));
 		System.out.println("---------------");
 		lhm.put(98, "we");
 		lhm.put(65, "hyui");

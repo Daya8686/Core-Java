@@ -38,6 +38,19 @@ public class LinkedListInJava {
 		while(dit.hasNext()) {
 			System.out.println(dit.next());
 			
+			System.out.println("-------------------------------");
+			LinkedList <Integer> l1=new LinkedList<>();
+			l1.add(5);
+			l1.add(4);
+			l1.add(7);
+			System.out.println( l1.get(0));
+			System.out.println("--------------------------------");
+			ArrayList <Integer> a=new ArrayList<>();
+			a.add(6);
+			a.add(9);
+			System.out.println(a.get(1));
+//			System.out.println(a.get(3)); // will get error
+			
 		}
 
 	}
